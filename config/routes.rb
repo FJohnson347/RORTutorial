@@ -1,4 +1,10 @@
 SampleApp::Application.routes.draw do
+  # FJ autogenerate when controller was generated
+  get "static_pages/home"
+  get "static_pages/help"
+
+  # FJ added
+  get "static_pages/about"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
