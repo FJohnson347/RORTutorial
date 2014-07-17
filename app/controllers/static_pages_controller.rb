@@ -13,8 +13,11 @@ class StaticPagesController < ApplicationController
   def help
   end
 
-  #FJ - This method I added, also need to add to config/routes.rb 
+  #FJ - I added these methods, also need to add to config/routes.rb 
   # and a view about.html.erb
   def about
+  end
+
+  def contact
   end
 end
